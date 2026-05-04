@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-Hant">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>動腦小遊戲樂園</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>動腦小遊戲樂園</h1>
+    <p>無廣告、離線可玩、給小學生的益智小遊戲平台</p>
+  </header>
+
+  <div id="play-reminder" class="reminder hidden">休息一下，眼睛也需要放假喔！</div>
+
+  <main>
+    <section id="home-view" class="view active">
+      <div id="game-grid" class="game-grid"></div>
+    </section>
+
+    <section id="game-view" class="view">
+      <div class="toolbar">
+        <button id="btn-home">返回首頁</button>
+        <button id="btn-restart">重新開始</button>
+        <strong id="game-title"></strong>
+      </div>
+      <p id="game-status">準備開始吧！</p>
+      <div id="game-controls"></div>
+      <div id="game-area"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
